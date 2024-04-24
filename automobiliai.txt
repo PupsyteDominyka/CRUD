@@ -1,0 +1,13 @@
+
+  Marke    | Metai | Kaina    
+   MB      | 2016  | 16000    
+  BMW      | 2013  | 11000    
+  BMW      | 2018  | 19000    
+  Audi     | 2023  | 65000    
+  Audi     | 2023  | 65000    
+  Marke    | Metai | Kaina    
+   MB      | 2016  | 16000    
+  BMW      | 2013  | 11000    
+  BMW      | 2018  | 19000    
+  Audi     | 2023  | 65000    
+  Audi     | 2023  | 65000    
