@@ -1,1 +1,3 @@
-Automobiliø metø vidurkis: 2018.60
+Geriausiai besimokantis studentas: {'vardas': 'Ona', 'pavarde': 'Onute', 'amzius': '19', 'pazymiai': '10 9 10 8 7'}
+Vyriausias studentas: {'vardas': 'Petras', 'pavarde': 'Petrauskas', 'amzius': '21', 'pazymiai': '9 8 7 6 5'}
+Maşiausias vidurkis: {'vardas': 'Petras', 'pavarde': 'Petrauskas', 'amzius': '21', 'pazymiai': '9 8 7 6 5'}
