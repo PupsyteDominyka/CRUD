@@ -2,7 +2,6 @@
 # print(failas.write("ožėlis mažasis\n"))
 # failas.close()
 import random
-import  csv
 
 # failas = open("naujasFailas.txt","r",encoding="utf8")
 # print(failas.readlines())
@@ -225,14 +224,37 @@ import  csv
 #
 # print("Duomenys atfiltruoti ir išsaugoti į atfiltruoti_studentai.csv failą.")
 
+# print('-------------------------------PAPILDOMA UZDUOTIS--------------------------------------')
 
 
+import csv
 
+file = "C:\Users\Asus\Desktop\Business Intelligence\Python\sampleData.csv"
 
+with open(file, "r", newline="") as csvfile:
+    csvreader = csv.reader(csvfile)
+    for row in csvreader:
+        print(row)
 
+with open("file" .replace('\\', '\\\\')"r", newline="") as csvfile:
+    csvreader = csv.reader(csvfile)
+    for row in csvreader:
+        print(row)
 
+# with open("C:\Users\Asus\Desktop\Business Intelligence\Python", "r", encoding="utf8") as file:
+#     csv_reader = csv.reader(file)
+#     for row in csv_reader:
+#         print(row)
+#
+# with open("C:\Users\Asus\Desktop\Business Intelligence\Python", "r", newline="") as csvfile:
+#     csvreader = csv.reader(csvfile)
+#     for row in csvreader:
+#         print(row)
 
-
+# with open("C:\Users\Asus\Desktop\Business Intelligence\Python" .replace('\\', '\\\\')"r", newline="") as csvfile:
+#     csvreader = csv.reader(csvfile)
+#     for row in csvreader:
+#         print(row)
 
 
 
