@@ -129,45 +129,45 @@ import  csv
 #     print("Nėra duomenų apie automobilius.")
 
 # print('------------------------------4---------------------------------------')
-
 #
-# with open("studentai.csv", "w", newline='') as csvfile:
-#     writer = csv.writer(csvfile)
+# with open("studentai.csv", "w", newline="") as cvsfile :
+#     writer = csv.writer(cvsfile)
 #     writer.writerow(["vardas", "pavarde", "amzius", "pazymiai"])
-#     writer.writerow(["Jonas", "Jonauskas", 20, "8 9 7 10 6"])
-#     writer.writerow(["Petras", "Petrauskas", 21, "9 8 7 6 5"])
-#     writer.writerow(["Ona", "Onute", 19, "10 9 10 8 7"])
+#     writer.writerow(["Ovidijus", "Sabalas", 20, "8 9 7 5 6"])
+#     writer.writerow(["Marina", "Petrova", 25, "9 10 6 7 8"])
+#     writer.writerow(["Dominyka", "Pupsyte", 30, "9 8 8 7 10"])
 #
-# print("Nuskaitymas su csv.reader:")
-# with open("studentai.csv", newline='') as csvfile:
+# print("csv.reader")
+# with open("studentai.csv", newline="") as csvfile:
 #     reader = csv.reader(csvfile)
-#     next(reader)  # Praleidžiame antraštę
+#     next(reader)
 #     for row in reader:
 #         print(row)
 #
-# print("\nNuskaitymas su csv.DictReader:")
-# with open("studentai.csv", newline='') as csvfile:
+# print("csv.dictreader")
+# with open("studentai.csv", newline="") as csvfile:
 #     reader = csv.DictReader(csvfile)
-#     for row in reader:
+#     for row in reader :
 #         print(row)
-#
+
 # # print('------------------------------5---------------------------------------')
 #
-# with open("prekes.csv", "w", newline='') as csvfile:
+# with open("prekes.csv", "w", newline="") as csvfile:
 #     writer = csv.writer(csvfile)
 #     writer.writerow(["prekes_kodas", "pavadinimas", "kaina", "kiekis"])
-#     writer.writerow(["1234", "Lempa", 15.99, 10])
-#     writer.writerow(["5678", "Stalas", 99.99, 5])
-#     writer.writerow(["91011", "Kėdė", 49.99, 8])
+#     writer.writerow(["1515", "Krosnis", 119.99, 10])
+#     writer.writerow(["0220", "Zibaline lempa", 20.23, 5])
+#     writer.writerow(["1880", "Padangos", 85.20, 4])
 #
-# print("Nuskaitymas su csv.reader:")
-# with open("prekes.csv", newline='') as csvfile:
+# print("csv.reader")
+# with open("prekes.csv", newline="") as csvfile:
 #     reader = csv.reader(csvfile)
-#     next(reader)  # Praleidžiame antraštę
+#     next(reader)
 #     for row in reader:
 #         print(row)
-# print("\nNuskaitymas su csv.DictReader:")
-# with open("prekes.csv", newline='') as csvfile:
+#
+# print("csv.DictReader")
+# with open("prekes.csv", newline="") as csvfile:
 #     reader = csv.DictReader(csvfile)
 #     for row in reader:
 #         print(row)
@@ -177,9 +177,9 @@ import  csv
 # with open("studentai.csv", "w", newline='') as csvfile:
 #     writer = csv.writer(csvfile)
 #     writer.writerow(["vardas", "pavarde", "amzius", "pazymiai"])
-#     writer.writerow(["Jonas", "Jonauskas", 20, "8 9 7 10 6"])
-#     writer.writerow(["Petras", "Petrauskas", 21, "9 8 7 6 5"])
-#     writer.writerow(["Ona", "Onute", 19, "10 9 10 8 7"])
+#     writer.writerow(["Ovidijus", "Sabalas", 20, "8 9 7 5 6"])
+#     writer.writerow(["Marina", "Petrova", 25, "9 10 6 7 8"])
+#     writer.writerow(["Dominyka", "Pupsyte", 30, "9 8 8 7 10"])
 #
 # with open("studentai.csv", newline='') as csvfile:
 #     reader = csv.DictReader(csvfile)
@@ -204,13 +204,14 @@ import  csv
 # with open("studentai.csv", "w", newline='') as csvfile:
 #     writer = csv.writer(csvfile)
 #     writer.writerow(["Vardas", "Pavarde", "Amzius", "Pazymiai"])
-#     writer.writerow(["Jonas", "Jonaitis", 20, "8 9 7 10 6"])
-#     writer.writerow(["Petras", "Petraitis", 21, "9 8 7 6 5"])
-#     writer.writerow(["Ona", "Onaite", 19, "10 9 10 8 7"])
-#     writer.writerow(["Maryte", "Marytite", 22, "6 7 8 9 10"])
+#     writer.writerow(["vardas", "pavarde", "amzius", "pazymiai"])
+#     writer.writerow(["Ovidijus", "Sabalas", 20, "8 9 7 5 6"])
+#     writer.writerow(["Marina", "Petrova", 25, "9 10 6 7 8"])
+#     writer.writerow(["Dominyka", "Pupsyte", 30, "9 8 8 7 10"])
 #
 # with open("studentai.csv", newline='') as csvfile:
 #     reader = csv.DictReader(csvfile)
+#     next(reader)  # Praleidžiame antraštę
 #     studentai = list(reader)
 #
 # filtruoti_studentai = [studentas for studentas in studentai if sum(map(int, studentas["Pazymiai"].split())) / len(studentas["Pazymiai"].split()) > 8]
