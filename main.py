@@ -227,19 +227,19 @@ import random
 # print('-------------------------------PAPILDOMA UZDUOTIS--------------------------------------')
 
 
-import csv
-
-file = "C:\Users\Asus\Desktop\Business Intelligence\Python\sampleData.csv"
-
-with open(file, "r", newline="") as csvfile:
-    csvreader = csv.reader(csvfile)
-    for row in csvreader:
-        print(row)
-
-with open("file" .replace('\\', '\\\\')"r", newline="") as csvfile:
-    csvreader = csv.reader(csvfile)
-    for row in csvreader:
-        print(row)
+# import csv
+#
+# file_path = "C:\Users\Asus\Desktop\Business Intelligence\Python\sampleData.csv"
+#
+# with open(file, "r", newline="") as csvfile:
+#     csvreader = csv.reader(csvfile)
+#     for row in csvreader:
+#         print(row)
+#
+# with open("file" .replace('\\', '\\\\')"r", newline="") as csvfile:
+#     csvreader = csv.reader(csvfile)
+#     for row in csvreader:
+#         print(row)
 
 # with open("C:\Users\Asus\Desktop\Business Intelligence\Python", "r", encoding="utf8") as file:
 #     csv_reader = csv.reader(file)
